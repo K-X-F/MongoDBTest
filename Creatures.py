@@ -42,6 +42,7 @@ else:
 
     connect(host=os.getenv("CREATURE_DEN_DATABASE_URL"))
     logging.debug("Running on local database")
+    # ojala my internet fuera asi
 
 Creature.drop_collection()
 Ability.drop_collection()
